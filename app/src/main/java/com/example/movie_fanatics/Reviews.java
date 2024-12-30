@@ -64,7 +64,7 @@ public class Reviews extends AppCompatActivity {
 
                 String com=comment.getText().toString();
                 if(!com.isBlank()){
-                    db.setreviews(id,com);
+                    db.setreviews(id,com.trim());
                     comment.setText("");
                     Cursor c=db.getreviews(id);
                     layout.removeAllViews();

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41284650130",
+    "project_id": "movie-f3286",
+    "storage_bucket": "movie-f3286.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41284650130:android:cb814d3a8c312a0846524b",
+        "android_client_info": {
+          "package_name": "com.example.movie_fanatics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-0aQlMOL1GsYKHardxCKgxDWsS6Wnr3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
