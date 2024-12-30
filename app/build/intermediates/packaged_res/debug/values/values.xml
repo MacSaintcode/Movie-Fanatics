@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+        <item>All Genre</item>
+        <item>Action</item>
+        <item>Romance</item>
+        <item>X Rated</item>
+        <item>Horror</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="darkieblue">#B2CCD1</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Movie-Fanatics</string>
+    <style name="Base.Theme.MovieFanatics" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MovieFanatics" parent="Base.Theme.MovieFanatics"/>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkieblue">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Movie Name"
+            android:layout_marginBottom="30px" />
+
+        <Spinner
+            android:layout_toRightOf="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="125px"
+            android:entries="@array/spinner_items"
+            android:id="@+id/genre"
+            />
+
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:id="@+id/parentlayout"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
