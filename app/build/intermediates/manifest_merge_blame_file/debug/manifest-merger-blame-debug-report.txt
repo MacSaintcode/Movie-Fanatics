@@ -36,7 +36,7 @@
 21-->[androidx.core:core:1.13.0] C:\Users\Eniola\.gradle\caches\transforms-3\4ac63b5b6f86d2d01c6147b2c4a0d2f2\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:5:5-30:19
+23-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:5:5-32:19
 24        android:allowBackup="true"
 24-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:6:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -59,205 +59,211 @@
 35        android:theme="@style/Theme.MovieFanatics" >
 35-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:13:9-51
 36        <activity
-36-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:16:9-19:51
-37            android:name="com.example.movie_fanatics.Reviews"
-37-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:17:13-36
-38            android:exported="false"
-38-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:18:13-37
-39            android:screenOrientation="portrait" />
-39-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:19:13-49
-40        <activity
-40-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:20:9-29:20
-41            android:name="com.example.movie_fanatics.MainActivity"
-41-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:21:13-41
-42            android:exported="true"
-42-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:22:13-36
-43            android:screenOrientation="portrait" >
-43-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:23:13-49
-44            <intent-filter>
-44-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:24:13-28:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:25:17-69
-45-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:25:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:17-77
-47-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:27-74
-48            </intent-filter>
-49        </activity>
-50
-51        <service
-51-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:14:9-20:19
-52            android:name="com.google.firebase.components.ComponentDiscoveryService"
-52-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:15:13-84
-53            android:directBootAware="true"
-53-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-54            android:exported="false" >
-54-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:16:13-37
-55            <meta-data
-55-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:17:13-19:85
-56                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-56-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:18:17-115
-57                android:value="com.google.firebase.components.ComponentRegistrar" />
-57-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:19:17-82
+36-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:15:9-17:40
+37            android:name="com.example.movie_fanatics.MainActivity"
+37-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:16:13-41
+38            android:exported="false" />
+38-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:17:13-37
+39        <activity
+39-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:18:9-21:52
+40            android:name="com.example.movie_fanatics.Reviews"
+40-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:19:13-36
+41            android:exported="false"
+41-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:20:13-37
+42            android:screenOrientation="portrait" />
+42-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:21:13-49
+43        <activity
+43-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:22:9-31:20
+44            android:name="com.example.movie_fanatics.Login"
+44-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:23:13-34
+45            android:exported="true"
+45-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:24:13-36
+46            android:screenOrientation="portrait" >
+46-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:25:13-49
+47            <intent-filter>
+47-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:26:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:17-69
+48-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:29:17-77
+50-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <service
+54-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:14:9-20:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:15:13-84
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:16:13-37
 58            <meta-data
-58-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\8ddf7443eab6d84cb65811818aae7ae8\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
-59                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-59-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\8ddf7443eab6d84cb65811818aae7ae8\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+58-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:17:13-19:85
+59                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+59-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:18:17-115
 60                android:value="com.google.firebase.components.ComponentRegistrar" />
-60-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\8ddf7443eab6d84cb65811818aae7ae8\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+60-->[com.google.firebase:firebase-crashlytics:18.3.2] C:\Users\Eniola\.gradle\caches\transforms-3\8bcd3016b18901a7f282b98292717707\transformed\firebase-crashlytics-18.3.2\AndroidManifest.xml:19:17-82
 61            <meta-data
-61-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\ffbdb3747e964c6534a5bb22093e973a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
-62                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-62-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\ffbdb3747e964c6534a5bb22093e973a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+61-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\8ddf7443eab6d84cb65811818aae7ae8\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+62                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+62-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\8ddf7443eab6d84cb65811818aae7ae8\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
 63                android:value="com.google.firebase.components.ComponentRegistrar" />
-63-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\ffbdb3747e964c6534a5bb22093e973a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
-64        </service>
-65
-66        <provider
-66-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-67            android:name="com.google.firebase.provider.FirebaseInitProvider"
-67-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-68            android:authorities="com.example.movie_fanatics.firebaseinitprovider"
-68-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-69            android:directBootAware="true"
-69-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-70            android:exported="false"
-70-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-71            android:initOrder="100" />
-71-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-72
-73        <receiver
-73-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
-74            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-74-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
-75            android:enabled="true"
-75-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
-76            android:exported="false" >
-76-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
-77        </receiver>
-78
-79        <service
-79-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
-80            android:name="com.google.android.gms.measurement.AppMeasurementService"
-80-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
-81            android:enabled="true"
-81-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
-82            android:exported="false" />
-82-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
-83        <service
-83-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
-84            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-84-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
-85            android:enabled="true"
-85-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
-87            android:permission="android.permission.BIND_JOB_SERVICE" />
-87-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
-88
-89        <meta-data
-89-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\4662ae4ca40ee2bb32c71a9d7fdc7479\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\4662ae4ca40ee2bb32c71a9d7fdc7479\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\4662ae4ca40ee2bb32c71a9d7fdc7479\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-92
-93        <provider
-93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-94            android:name="androidx.startup.InitializationProvider"
-94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-95            android:authorities="com.example.movie_fanatics.androidx-startup"
-95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-96            android:exported="false" >
-96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-97            <meta-data
-97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-99                android:value="androidx.startup" />
-99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+63-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\8ddf7443eab6d84cb65811818aae7ae8\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\ffbdb3747e964c6534a5bb22093e973a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+65                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+65-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\ffbdb3747e964c6534a5bb22093e973a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\ffbdb3747e964c6534a5bb22093e973a\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+67        </service>
+68
+69        <provider
+69-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+70            android:name="com.google.firebase.provider.FirebaseInitProvider"
+70-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+71            android:authorities="com.example.movie_fanatics.firebaseinitprovider"
+71-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+73            android:exported="false"
+73-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+74            android:initOrder="100" />
+74-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\110ab3dff29086fcadcbc9c9a0c0c6f5\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+75
+76        <receiver
+76-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+77            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+77-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+78            android:enabled="true"
+78-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+79            android:exported="false" >
+79-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+80        </receiver>
+81
+82        <service
+82-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+83            android:name="com.google.android.gms.measurement.AppMeasurementService"
+83-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+84            android:enabled="true"
+84-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+85            android:exported="false" />
+85-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+86        <service
+86-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+87            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+87-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+90            android:permission="android.permission.BIND_JOB_SERVICE" />
+90-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Eniola\.gradle\caches\transforms-3\2f55ce39fe919a8f77224ed0f99a5b3e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\4662ae4ca40ee2bb32c71a9d7fdc7479\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\4662ae4ca40ee2bb32c71a9d7fdc7479\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Eniola\.gradle\caches\transforms-3\4662ae4ca40ee2bb32c71a9d7fdc7479\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+98            android:authorities="com.example.movie_fanatics.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 100            <meta-data
-100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eniola\.gradle\caches\transforms-3\0249bebeaa3cee19360d42974b03536f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-101-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eniola\.gradle\caches\transforms-3\0249bebeaa3cee19360d42974b03536f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 102                android:value="androidx.startup" />
-102-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eniola\.gradle\caches\transforms-3\0249bebeaa3cee19360d42974b03536f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eniola\.gradle\caches\transforms-3\dadbe75b764fcbee692c6d6dca4d20f8\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 103            <meta-data
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-104                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+103-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eniola\.gradle\caches\transforms-3\0249bebeaa3cee19360d42974b03536f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eniola\.gradle\caches\transforms-3\0249bebeaa3cee19360d42974b03536f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 105                android:value="androidx.startup" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-106        </provider>
-107
-108        <receiver
-108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-109            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-110            android:directBootAware="false"
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-111            android:enabled="true"
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-112            android:exported="true"
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-113            android:permission="android.permission.DUMP" >
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-115                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-116            </intent-filter>
+105-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eniola\.gradle\caches\transforms-3\0249bebeaa3cee19360d42974b03536f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-118                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 119            </intent-filter>
 120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-121                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 122            </intent-filter>
 123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-124                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 125            </intent-filter>
-126        </receiver>
-127
-128        <service
-128-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-129            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-129-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-130            android:exported="false" >
-130-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-131            <meta-data
-131-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-132                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-132-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-133                android:value="cct" />
-133-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-134        </service>
-135        <service
-135-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-136            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-136-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-137            android:exported="false"
-137-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-138            android:permission="android.permission.BIND_JOB_SERVICE" >
-138-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-139        </service>
-140
-141        <receiver
-141-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-142            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-142-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-143            android:exported="false" />
-143-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-144    </application>
-145
-146</manifest>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eniola\.gradle\caches\transforms-3\0f5b5dce2a05136148596c29a8ae7457\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130
+131        <service
+131-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+132            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+132-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+133            android:exported="false" >
+133-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+134            <meta-data
+134-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+135                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+135-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+136                android:value="cct" />
+136-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\4d907f633151941db7347b9b788d48ed\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+137        </service>
+138        <service
+138-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+139            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+139-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+140            android:exported="false"
+140-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" >
+141-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+142        </service>
+143
+144        <receiver
+144-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+145            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+145-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+146            android:exported="false" />
+146-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Eniola\.gradle\caches\transforms-3\42c0e898fb50401a9b1fc93326adce12\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+147    </application>
+148
+149</manifest>

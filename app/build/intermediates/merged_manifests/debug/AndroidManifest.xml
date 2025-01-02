@@ -34,11 +34,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.MovieFanatics" >
         <activity
+            android:name="com.example.movie_fanatics.MainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.movie_fanatics.Reviews"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.movie_fanatics.MainActivity"
+            android:name="com.example.movie_fanatics.Login"
             android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
