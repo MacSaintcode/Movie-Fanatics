@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Movie-Fanatics</string>
+    <string name="password">Password</string>
+    <string name="dont_have_one_signup">Dont have one? Signup</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
     <string-array name="spinner_items">
         <item>All Genre</item>
         <item>Action</item>

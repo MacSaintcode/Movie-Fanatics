@@ -36,7 +36,7 @@
 21-->[androidx.core:core:1.13.0] C:\Users\Eniola\.gradle\caches\transforms-3\4ac63b5b6f86d2d01c6147b2c4a0d2f2\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:5:5-32:19
+23-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:5:5-33:19
 24        android:allowBackup="true"
 24-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:6:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -59,36 +59,36 @@
 35        android:theme="@style/Theme.MovieFanatics" >
 35-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:13:9-51
 36        <activity
-36-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:15:9-17:40
+36-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:15:9-18:51
 37            android:name="com.example.movie_fanatics.MainActivity"
 37-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:16:13-41
-38            android:exported="false" />
+38            android:exported="false"
 38-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:17:13-37
-39        <activity
-39-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:18:9-21:52
-40            android:name="com.example.movie_fanatics.Reviews"
-40-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:19:13-36
-41            android:exported="false"
-41-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:20:13-37
-42            android:screenOrientation="portrait" />
-42-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:21:13-49
-43        <activity
-43-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:22:9-31:20
-44            android:name="com.example.movie_fanatics.Login"
-44-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:23:13-34
-45            android:exported="true"
-45-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:24:13-36
-46            android:screenOrientation="portrait" >
-46-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:25:13-49
+39            android:screenOrientation="portrait" />
+39-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:18:13-49
+40        <activity
+40-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:19:9-22:52
+41            android:name="com.example.movie_fanatics.Reviews"
+41-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:20:13-36
+42            android:exported="false"
+42-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:21:13-37
+43            android:screenOrientation="portrait" />
+43-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:22:13-49
+44        <activity
+44-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:23:9-32:20
+45            android:name="com.example.movie_fanatics.Login"
+45-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:24:13-34
+46            android:exported="true" >
+46-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:25:13-36
 47            <intent-filter>
-47-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:26:13-30:29
+47-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:13-31:29
 48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:17-69
-48-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:25-66
+48-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:28:17-69
+48-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:28:25-66
 49
 50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:29:17-77
-50-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:29:27-74
+50-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:30:17-77
+50-->C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:30:27-74
 51            </intent-filter>
 52        </activity>
 53

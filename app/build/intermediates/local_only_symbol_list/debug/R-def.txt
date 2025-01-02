@@ -4,6 +4,7 @@ array spinner_items
 color black
 color darkieblue
 color white
+drawable anonymity
 drawable arrow
 drawable hide
 drawable ic_launcher_background
@@ -18,10 +19,12 @@ drawable send
 drawable view
 id Moviename
 id back
+id backk
 id comentsection
 id comment
 id commit
 id genre
+id login
 id movieimg
 id nocomment
 id parentlayout
@@ -29,10 +32,11 @@ id pass
 id rating
 id relativeLayout
 id scroll
+id scrollView
 id searchView
 id see
 id send
-id textView
+id signup
 id top
 id username
 layout activity_login

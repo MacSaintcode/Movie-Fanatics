@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\drawable_anonymity.png.flat",
+        "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\drawable\\anonymity.png"
+    },
+    {
         "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -64,10 +68,6 @@
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.movie_fanatics.app-merged_res-35:/drawable_hide.png.flat",
-        "source": "com.example.movie_fanatics.app-main-37:/drawable/hide.png"
-    },
-    {
         "merged": "com.example.movie_fanatics.app-merged_res-35:/layout_activity_login.xml.flat",
         "source": "com.example.movie_fanatics.app-main-37:/layout/activity_login.xml"
     },
@@ -92,6 +92,10 @@
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\drawable\\send.png"
     },
     {
+        "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\drawable_view.png.flat",
+        "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\drawable\\view.png"
+    },
+    {
         "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\drawable_r.png.flat",
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\drawable\\r.png"
     },
@@ -108,15 +112,15 @@
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\drawable_hide.png.flat",
+        "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\drawable\\hide.png"
+    },
+    {
         "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Eniola\\.gradle\\daemon\\8.2\\com.example.movie_fanatics.app-main-37:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.movie_fanatics.app-merged_res-35:/drawable_view.png.flat",
-        "source": "com.example.movie_fanatics.app-main-37:/drawable/view.png"
     }
 ]

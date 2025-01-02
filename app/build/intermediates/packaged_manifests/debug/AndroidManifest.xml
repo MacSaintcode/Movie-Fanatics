@@ -35,15 +35,15 @@
         android:theme="@style/Theme.MovieFanatics" >
         <activity
             android:name="com.example.movie_fanatics.MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.movie_fanatics.Reviews"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.movie_fanatics.Login"
-            android:exported="true"
-            android:screenOrientation="portrait" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

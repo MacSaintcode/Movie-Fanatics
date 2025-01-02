@@ -2969,6 +2969,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f080074
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f080075
 int drawable abc_textfield_search_material 0x7f080076
 int drawable abc_vector_test 0x7f080077
+int drawable anonymity 0x7f0800f0
 int drawable arrow 0x7f080078
 int drawable avd_hide_password 0x7f080079
 int drawable avd_show_password 0x7f08007a
@@ -3178,6 +3179,7 @@ int id autoComplete 0x7f090055
 int id autoCompleteToEnd 0x7f090056
 int id autoCompleteToStart 0x7f090057
 int id back 0x7f090058
+int id backk 0x7f090203
 int id barrier 0x7f090059
 int id baseline 0x7f09005a
 int id beginOnFirstDraw 0x7f09005b
@@ -3335,6 +3337,7 @@ int id line3 0x7f0900f2
 int id linear 0x7f0900f3
 int id listMode 0x7f0900f4
 int id list_item 0x7f0900f5
+int id login 0x7f090204
 int id m3_side_sheet 0x7f0900f6
 int id marquee 0x7f0900f7
 int id masked 0x7f0900f8
@@ -3499,6 +3502,7 @@ int id shortcut 0x7f090193
 int id showCustom 0x7f090194
 int id showHome 0x7f090195
 int id showTitle 0x7f090196
+int id signup 0x7f090205
 int id sin 0x7f090197
 int id skipCollapsed 0x7f090198
 int id skipped 0x7f090199
@@ -3552,7 +3556,6 @@ int id textSpacerNoButtons 0x7f0901c8
 int id textSpacerNoTitle 0x7f0901c9
 int id textStart 0x7f0901ca
 int id textTop 0x7f0901cb
-int id textView 0x7f090200
 int id text_input_end_icon 0x7f0901cc
 int id text_input_error_icon 0x7f0901cd
 int id text_input_start_icon 0x7f0901ce

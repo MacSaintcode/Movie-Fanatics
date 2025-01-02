@@ -2970,6 +2970,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable anonymity
 drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
@@ -3179,6 +3180,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id back
+id backk
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3336,6 +3338,7 @@ id line3
 id linear
 id listMode
 id list_item
+id login
 id m3_side_sheet
 id marquee
 id masked
@@ -3500,6 +3503,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup
 id sin
 id skipCollapsed
 id skipped
@@ -3553,7 +3557,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
