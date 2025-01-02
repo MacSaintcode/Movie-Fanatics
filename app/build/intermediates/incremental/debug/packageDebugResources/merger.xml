@@ -5,7 +5,7 @@
         <item>Romance</item>
         <item>X Rated</item>
         <item>Horror</item>
-    </string-array></file><file path="C:\Users\Eniola\Documents\MovieFanatics\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.MovieFanatics" parent="Theme.Material3.DayNight.NoActionBar">
+    </string-array><string name="username">Username</string><string name="password">Password</string><string name="dont_have_one_signup">Dont have one? Signup</string><string name="login">Login</string></file><file path="C:\Users\Eniola\Documents\MovieFanatics\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.MovieFanatics" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style><style name="Theme.MovieFanatics" parent="Base.Theme.MovieFanatics"/></file><file path="C:\Users\Eniola\Documents\MovieFanatics\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.MovieFanatics" parent="Theme.Material3.DayNight.NoActionBar">

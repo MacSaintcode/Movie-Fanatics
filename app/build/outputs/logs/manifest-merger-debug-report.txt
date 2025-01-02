@@ -149,14 +149,14 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Eniola\.gradle\cac
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.movie_fanatics.MainActivity
+activity#com.example.movie_fanatics.Login
 ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:15:9-18:51
 	android:screenOrientation
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:18:13-49
 	android:exported
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:16:13-34
 activity#com.example.movie_fanatics.Reviews
 ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:19:9-22:52
 	android:screenOrientation
@@ -165,12 +165,12 @@ ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:20:13-36
-activity#com.example.movie_fanatics.Login
+activity#com.example.movie_fanatics.MainActivity
 ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:23:9-32:20
 	android:exported
 		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:24:13-34
+		ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Eniola\Documents\MovieFanatics\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN

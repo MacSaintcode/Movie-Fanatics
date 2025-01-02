@@ -53,6 +53,17 @@ String status="hide";
             }
             password.setSelection(password.getText().length());
         }
+        else if(v.equals(back)){
+
+
+        }
+        else if(v.equals(signup)){
+
+
+        }
+        else{
+
+        }
 
     }
 }

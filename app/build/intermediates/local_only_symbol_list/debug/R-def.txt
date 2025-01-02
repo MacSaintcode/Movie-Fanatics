@@ -23,9 +23,11 @@ id backk
 id comentsection
 id comment
 id commit
+id finder
 id genre
 id login
 id movieimg
+id nav
 id nocomment
 id parentlayout
 id pass
@@ -33,6 +35,7 @@ id rating
 id relativeLayout
 id scroll
 id scrollView
+id scrollView2
 id searchView
 id see
 id send
@@ -46,12 +49,16 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string com.google.firebase.crashlytics.mapping_file_id
+string dont_have_one_signup
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string login
+string password
 string project_id
+string username
 style Base.Theme.MovieFanatics
 style Theme.MovieFanatics
 xml backup_rules

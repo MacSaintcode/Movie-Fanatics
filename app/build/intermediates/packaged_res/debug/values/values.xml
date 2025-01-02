@@ -12,12 +12,16 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Movie-Fanatics</string>
     <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="dont_have_one_signup">Dont have one? Signup</string>
     <string name="gcm_defaultSenderId" translatable="false">41284650130</string>
     <string name="google_api_key" translatable="false">AIzaSyC-0aQlMOL1GsYKHardxCKgxDWsS6Wnr3E</string>
     <string name="google_app_id" translatable="false">1:41284650130:android:cb814d3a8c312a0846524b</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-0aQlMOL1GsYKHardxCKgxDWsS6Wnr3E</string>
     <string name="google_storage_bucket" translatable="false">movie-f3286.firebasestorage.app</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
     <string name="project_id" translatable="false">movie-f3286</string>
+    <string name="username">Username</string>
     <style name="Base.Theme.MovieFanatics" parent="Theme.Material3.DayNight.NoActionBar">
         
         

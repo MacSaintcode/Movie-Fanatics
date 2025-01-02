@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -23,6 +24,8 @@ public class Reviews extends AppCompatActivity {
     private ImageView img;
 
     private RatingBar rate;
+
+    private ScrollView scroll;
     private TextView moviename,nocomment;
     private ImageView imgview,back;
     private EditText comment;
@@ -40,6 +43,9 @@ public class Reviews extends AppCompatActivity {
         back=findViewById(R.id.back);
         nocomment=findViewById(R.id.nocomment);
         layout=findViewById(R.id.comentsection);
+        scroll=findViewById(R.id.scroll);
+
+
 
 
         db=new DBHandler(this);
@@ -64,13 +70,14 @@ public class Reviews extends AppCompatActivity {
 
                 String com=comment.getText().toString();
                 if(!com.isBlank()){
+
                     db.setreviews(id,com.trim());
                     comment.setText("");
-                    Cursor c=db.getreviews(id);
-                    layout.removeAllViews();
-                    while (c.moveToNext()){
-                        createviews(c.getString(0));
-                    }
+                    layout.removeViewAt(layout.getChildCount()-1);
+                    createviews(com.trim());
+                    createviews("");
+                    scroll.post(() -> scroll.fullScroll(View.FOCUS_DOWN));
+
                 }
                 else {
                     Toast.makeText(Reviews.this, "Comment field can't be empty", Toast.LENGTH_SHORT).show();
@@ -96,9 +103,9 @@ public class Reviews extends AppCompatActivity {
         }
     }
     private void createviews(String review) {
-
         TextView textView = new TextView(this);
-        textView.setText("Watcher's Review: "+review);
+        if (!review.equals("")){
+        textView.setText("Watcher's Review: "+review);}
         textView.setTypeface(null, Typeface.BOLD);
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(

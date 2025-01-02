@@ -34,7 +34,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.MovieFanatics" >
         <activity
-            android:name="com.example.movie_fanatics.MainActivity"
+            android:name="com.example.movie_fanatics.Login"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -42,7 +42,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.movie_fanatics.Login"
+            android:name="com.example.movie_fanatics.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

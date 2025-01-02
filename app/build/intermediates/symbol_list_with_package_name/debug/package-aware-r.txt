@@ -3284,6 +3284,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finder
 id fitCenter
 id fitEnd
 id fitStart
@@ -3400,6 +3401,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3480,6 +3482,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id searchView
 id search_badge
@@ -3856,6 +3859,7 @@ string character_counter_pattern
 string clear_text_end_icon_content_description
 string com_google_firebase_crashlytics_mapping_file_id
 string common_google_play_services_unknown_issue
+string dont_have_one_signup
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3869,6 +3873,7 @@ string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string login
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3969,6 +3974,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3982,6 +3988,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string username
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
