@@ -27,14 +27,15 @@ public class DBHandler extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String Movie_Table="CREATE TABLE if not exists Movie_Detailes (Id INTEGER PRIMARY KEY AUTOINCREMENT, Movie_Names TEXT,Movie_image BLOB,Genre TEXT,Ratings DOUBLE,Description TEXT)";
         String Movie_Reviews="CREATE TABLE if not exists Movie_Reviews (Id INTEGER REFERENCES Movie_Details(Id) ,Review TEXT)";
+        String User_Details="CREATE TABLE if not exists userDetails (Id INTEGER PRIMARY KEY AUTOINCREMENT,Fullname TEXT,userName TEXT,Phonenumber TEXT,Password TEXT)";
+        String user_choice="CREATE TABLE if not exists Favorites (userId REFERENCES userDetails(Id),Fovorites INTEGER REFERENCES Movie_Details(Id))";
         db.execSQL(Movie_Table);
         db.execSQL(Movie_Reviews);
+        db.execSQL(User_Details);
+        db.execSQL(user_choice);
     }
     void addmovies(String moviename,int draw, double rating, String description,String genre){
         SQLiteDatabase db=this.getWritableDatabase();
-
-
-        db= this.getWritableDatabase();
         ContentValues values= new ContentValues();
 
         Bitmap bitmap = BitmapFactory.decodeResource(c.getResources(), draw);
@@ -50,8 +51,30 @@ public class DBHandler extends SQLiteOpenHelper {
 
       long t= db.insert("Movie_Detailes",null,values);
         System.out.println("complete!"+ t);
-//        db.execSQL("delete from Movie_Reviews");
-//        db.execSQL("delete from Movie_Detailes");
+    }
+    void adduser(String fullname,String Phonenumber, String userName, String passWord){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues values= new ContentValues();
+
+        values.put("Fullname",fullname);
+        values.put("Phonenumber",Phonenumber);
+        values.put("userName",userName);
+        values.put("Password",passWord);
+
+        long t= db.insert("userDetails",null,values);
+        System.out.println("complete!"+ t);
+
+    }
+    void adduserfav(String userid,int movieId){
+        SQLiteDatabase db= this.getWritableDatabase();
+        ContentValues values= new ContentValues();
+
+        values.put("userId",userid);
+        values.put("Fovorites",movieId);
+
+        long t= db.insert("userDetails",null,values);
+        System.out.println("complete!"+ t);
+
     }
     Cursor getallmovie(){
         SQLiteDatabase db=this.getReadableDatabase();
@@ -77,6 +100,11 @@ public class DBHandler extends SQLiteOpenHelper {
             }
          }
         return  c;
+    }
+    Cursor getuser(String username,String Password){
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor c=db.rawQuery("Select * from userDetails where userName = ? and Password = ?",new String[]{username,Password});
+        return c;
     }
     Cursor getreviews(int id){
         SQLiteDatabase db=this.getReadableDatabase();
