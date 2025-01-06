@@ -45,15 +45,15 @@ public class Reviews extends AppCompatActivity {
         layout=findViewById(R.id.comentsection);
         scroll=findViewById(R.id.scroll);
 
-
-
-
         db=new DBHandler(this);
         Intent get=getIntent();
-        int id=get.getIntExtra("id",5);
+        int id = get.getIntExtra("id", -1);
+
+//        add error view
+
+
         byte[] imgs;
         Bitmap bit;
-//        System.out.println(id);
 
         Cursor c=db.getmovie(id);
         while(c.moveToNext()){
@@ -63,6 +63,7 @@ public class Reviews extends AppCompatActivity {
             rate.setRating(c.getFloat(4));
             img.setImageBitmap(bit);
         }
+
         comment.setHint("Comment on "+moviename.getText().toString());
         imgview.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,8 +85,6 @@ public class Reviews extends AppCompatActivity {
                 }
             }
         });
-
-
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="45dp"
         android:layout_height="42dp"
-        android:src="@drawable/arrow"
+        android:src="@drawable/previous"
         android:id="@+id/back"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"
@@ -46,13 +46,13 @@
             />
 
         <RatingBar
+            android:id="@+id/rating"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
+            android:layout_height="41dp"
+            android:isIndicator="true"
             android:scaleX="0.6"
             android:scaleY="0.6"
-            android:isIndicator="true"
-            android:id="@+id/rating"
 
             />
 

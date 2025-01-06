@@ -3,6 +3,7 @@ package com.example.movie_fanatics;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -11,6 +12,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ScrollView;
 import android.widget.SearchView;
 import android.os.Bundle;
 import android.view.ViewGroup;
@@ -23,12 +25,16 @@ import android.widget.Toast;
 import java.util.Random;
 import java.util.stream.DoubleStream;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private LinearLayout parentLayout;
     private SearchView search;
+
+    ImageView home,profile,set;
     private DBHandler DBHandler;
     private Spinner spin;
+    private ScrollView scroll;
+    SharedPreferences sharedPreferences;
 
 
     @Override
@@ -41,22 +47,35 @@ public class MainActivity extends AppCompatActivity {
         search=findViewById(R.id.searchView);
         DBHandler=new DBHandler(this);
         spin = findViewById(R.id.genre);
+        home=findViewById(R.id.home);
+        set=findViewById(R.id.settings);
+        scroll=findViewById(R.id.scrollView2);
+        profile=findViewById(R.id.profile);
 
-//        parentLayout.setHorizontalScrollBarEnabled(true);
-//        Random rand=new Random();
-//        String name[]={"Romance","Action","X Rated","Horror"};
-//        String movi[]={"Instigator","The Fraction","Lily Rose","Roxxan","Anna","Reve Rex","The Salamander",
-//                "The Silver Tongue","Razor Sharp","Fillet","The Judas Family","Deadly Kimiyo"};
-//        int count=0;
-//        for (int i = 1; i < movi.length+1; i++) {
-//            if(count==4){
-//                count=0;
-//            }
-//            DBHandler.addmovies(movi[i-1],R.drawable.res,
-//                 rand.nextInt(6),"bolo",name[count]);
-//            count++;
-//        }
+        sharedPreferences = getSharedPreferences("storage", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.clear();
+//        editor.apply();
 
+        if (sharedPreferences.getInt("loader",0)==0) {
+
+            parentLayout.setHorizontalScrollBarEnabled(true);
+            Random rand=new Random();
+            String name[]={"Romance","Action","X Rated","Horror"};
+            String movi[]={"Instigator","The Fraction","Lily Rose","Roxxan","Anna","Reve Rex","The Salamander",
+                    "The Silver Tongue","Razor Sharp","Fillet","The Judas Family","Deadly Kimiyo"};
+            int count=0;
+            for (int i = 1; i < movi.length+1; i++) {
+                if(count==4){
+                    count=0;
+                }
+                DBHandler.addmovies(movi[i-1],R.drawable.imp,
+                     rand.nextDouble(),"bolo",name[count]);
+                count++;
+            }
+        }
+//        editor.putInt("loader", 1);
+//        editor.apply();
 
         Cursor c=DBHandler.getallmovie();
        generate(c);
@@ -88,6 +107,8 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+        home.setOnClickListener(this);
     }
 
     void search(String newText){
@@ -179,5 +200,23 @@ public class MainActivity extends AppCompatActivity {
         textView.setLayoutParams(layoutParams);
         parentLayout.addView(img);// Add ImageView to the parent layout
         parentLayout.addView(textView); // Add TextView to the parent layout
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (v.equals(home)){
+            scroll.post(() -> scroll.fullScroll(View.FOCUS_UP));
+
+        }
+        else if(v.equals(profile)){
+
+
+
+        }
+        else if(v.equals(set)){
+
+
+        }
+
     }
 }

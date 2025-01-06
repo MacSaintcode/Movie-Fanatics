@@ -20,15 +20,15 @@ public class DBHandler extends SQLiteOpenHelper {
     Context c;
 
     public DBHandler(@Nullable Context context) {
-        super(context, "Movie_Handler", null, 5);
+        super(context, "Movie_Handler", null, 11);
         c=context;
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
         String Movie_Table="CREATE TABLE if not exists Movie_Detailes (Id INTEGER PRIMARY KEY AUTOINCREMENT, Movie_Names TEXT,Movie_image BLOB,Genre TEXT,Ratings DOUBLE,Description TEXT)";
-        String Movie_Reviews="CREATE TABLE if not exists Movie_Reviews (Id INTEGER REFERENCES Movie_Details(Id) ,Review TEXT)";
-        String User_Details="CREATE TABLE if not exists userDetails (Id INTEGER PRIMARY KEY AUTOINCREMENT,Fullname TEXT,userName TEXT,Phonenumber TEXT,Password TEXT)";
-        String user_choice="CREATE TABLE if not exists Favorites (userId REFERENCES userDetails(Id),Fovorites INTEGER REFERENCES Movie_Details(Id))";
+        String Movie_Reviews="CREATE TABLE if not exists Movie_Reviews (review_id INTEGER PRIMARY KEY AUTOINCREMENT, Id INTEGER REFERENCES Movie_Details(Id) ,Review TEXT)";
+        String User_Details="CREATE TABLE if not exists userDetails (Id INTEGER PRIMARY KEY AUTOINCREMENT,Fullname TEXT,userName TEXT UNIQUE,Phonenumber TEXT,Password TEXT)";
+        String user_choice="CREATE TABLE if not exists Favorites (favorites_id INTEGER PRIMARY KEY AUTOINCREMENT, userId REFERENCES userDetails(Id),Fovorites INTEGER REFERENCES Movie_Details(Id))";
         db.execSQL(Movie_Table);
         db.execSQL(Movie_Reviews);
         db.execSQL(User_Details);
@@ -52,6 +52,13 @@ public class DBHandler extends SQLiteOpenHelper {
       long t= db.insert("Movie_Detailes",null,values);
         System.out.println("complete!"+ t);
     }
+    void setreviews(int id,String review){
+        SQLiteDatabase db= this.getWritableDatabase();
+        ContentValues values= new ContentValues();
+        values.put("Review",review);
+        values.put("Id",id);
+        db.insert("Movie_Reviews",null,values);
+    }
     void adduser(String fullname,String Phonenumber, String userName, String passWord){
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues values= new ContentValues();
@@ -62,8 +69,6 @@ public class DBHandler extends SQLiteOpenHelper {
         values.put("Password",passWord);
 
         long t= db.insert("userDetails",null,values);
-        System.out.println("complete!"+ t);
-
     }
     void adduserfav(String userid,int movieId){
         SQLiteDatabase db= this.getWritableDatabase();
@@ -74,13 +79,14 @@ public class DBHandler extends SQLiteOpenHelper {
 
         long t= db.insert("userDetails",null,values);
         System.out.println("complete!"+ t);
-
     }
+
     Cursor getallmovie(){
         SQLiteDatabase db=this.getReadableDatabase();
         Cursor c= db.rawQuery("Select * from Movie_Detailes",new String[]{});
         return  c;
     }
+
      Cursor getmoviegenre(String genre,String search){
         SQLiteDatabase db=this.getReadableDatabase();
          Cursor c;
@@ -111,13 +117,7 @@ public class DBHandler extends SQLiteOpenHelper {
         Cursor c=db.rawQuery("Select Review from Movie_Reviews where Id = ?",new String[]{String.valueOf(id)});
         return c;
     }
-    void setreviews(int id,String review){
-        SQLiteDatabase db= this.getWritableDatabase();
-        ContentValues values= new ContentValues();
-        values.put("Review",review);
-        values.put("Id",id);
-        db.insert("Movie_Reviews",null,values);
-    }
+
     Cursor moviesearch(String name,String genre){
         SQLiteDatabase db;
         Cursor c;
@@ -131,13 +131,15 @@ public class DBHandler extends SQLiteOpenHelper {
     }
     Cursor getmovie(int num){
         SQLiteDatabase db=this.getReadableDatabase();
-        Cursor c=db.rawQuery("Select * from Movie_Detailes where Id = ? ",new String[]{String.valueOf(num)});
+        Cursor c=db.rawQuery("Select * from Movie_Detailes where Id = ?",new String[]{String.valueOf(num)});
         return c;
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        String upgrade="DROP TABLE Movie_Detailes";
-        db.execSQL(upgrade);
+        db.execSQL("DROP TABLE Movie_Detailes");
+        db.execSQL("DROP TABLE Movie_Reviews");
+        db.execSQL("DROP TABLE userDetails");
+        db.execSQL("DROP TABLE Favorites");
         onCreate(db);
 
     }
